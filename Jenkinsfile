@@ -11,7 +11,8 @@ node {
         }
         
         stage('Clean') {
-            sh "./gradlew clean"
+            //sh "./gradlew clean"
+            echo 'clean'
         }
         
         stage('Build') {
